@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train Schedule</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="http://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+        <div class="railroadImage"><img src="assets/images/railroad-png-15.png" width="150" height="240"></div>
+        <div class="railroadSign"><img src="assets/images/railroad-crossing-sign-png-5.png" width="100" height="240"></div>
+    <div class="jumbotron jumbotron-fluid">
+        
+        <div class="container">
+            <h1 class="display-4">Train Schedules</h1>
+            <p class="lead">All Aboard! CHOO CHOO!</p>
+        </div>
+    </div>
+    <br>
+
+    <div class="card">
+        <div class="card-header">
+            Featured
+        </div>
+        <table class="table table-striped table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br>
+    <div class="card">
+        <div class="card-header">
+            Add Train
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Train Name</label>
+                <input type="name" class="form-control" id="trainName" placeholder="The Polar Express">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Destination</label>
+                <input type="destination" class="form-control" id="destination" placeholder="The North Pole">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">First Train Time HH:mm - Military Time</label>
+                <input type="time" class="form-control" id="time" placeholder="12:00">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Frequency</label>
+                <input type="frequency" class="form-control" id="frequency" placeholder="5000">
+            </div>
+            <button id="button" type="submit" class="btn btn-primary">Submit</button>
+    </div>
+
+
+    <script src="assets/javascript/javascript.js"></script>
+</body>
+
+</html>

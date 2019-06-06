@@ -1,0 +1,24 @@
+.jumbotron, .card {
+    margin:0 auto;
+    width:80%;
+}
+.jumbotron {
+    background-color: bisque;
+    text-align: center;
+}
+.form-group, #button {
+    margin:20px;
+}
+.railroadImage {
+    width:auto;
+    height:0px;
+    position:relative;
+    margin-left:900px;
+}
+.railroadSign {
+    width:auto;
+    height:0px;
+    position:relative;
+    margin-left:340px;
+
+}
